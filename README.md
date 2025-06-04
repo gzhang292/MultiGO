@@ -13,9 +13,9 @@ Before using MultiGO for inference, you need to download the model parameters. P
 1. Click the following link to download the model parameters:
    - [Download Model Parameters](https://drive.google.com/file/d/1JJDk-oo588froso33BM62FedXVoZBTlN/view)
 
-2. Extract the downloaded file and place the parameter files in the `models` directory of the project.
+2. Extract the downloaded file and place the parameter files in the `workspace` directory of the project.
 
-├── multigo/ │ ├── workspace/ │ │ ├── model.safetensors │ ├── ...
+   - multigo/workspace/model.safetensors
 
 ## Environment
 
