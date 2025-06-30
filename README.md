@@ -19,12 +19,24 @@ Before using MultiGO for inference, you need to download the model parameters. P
 
 ## Environment
 
-To use MultiGO, you need to set up the appropriate PyTorch environment. Please refer to the following repositories to prepare your environment:
+1. To use MultiGO, you need to set up the appropriate PyTorch environment. Please refer to the following repositories to prepare your environment:
 
 - [LGM Repository](https://github.com/3DTopia/LGM)
 - [SiTH Repository](https://github.com/SiTH-Diffusion/SiTH)
 
 Make sure to follow the instructions in these repositories to install the necessary dependencies and set up your environment correctly.
+
+2. Download  [SMPL-X](https://smpl-x.is.tue.mpg.de/) models and move them to the `smpl_estimated_related/data/body_models` folder. You should have the following data structure:
+```
+body_models
+    └──smplx
+        ├── SMPLX_NEUTRAL.pkl
+        ├── SMPLX_NEUTRAL.npz
+        ├── SMPLX_MALE.pkl
+        ├── SMPLX_MALE.npz
+        ├── SMPLX_FEMALE.pkl
+        └── SMPLX_FEMALE.npz
+```
 
 ## Usage
 
